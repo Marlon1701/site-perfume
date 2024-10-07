@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Germania+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 120px;
+  background-image: linear-gradient(20deg,#000, gold, black);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1150px;
+  margin: auto;
+}
+.logo {
+  padding: 0.5rem;
+}
+.logo img {
+  height: 100px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  font-size: 23px;
+}
+.menu li a:hover {
+  color: #000;
+  border-bottom: 3px solid rgba(20, 10, 40, 0.5);
+}
+.menu-oculto{
+  display: none;
+}
+.menu-oculto:hover{
+  display: flex;
+}
+.contato {
+  display: flex;
+  align-items: center;
+}
+.contato a {
+  text-decoration: none;
+  display: block;
+  background-color: #000;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.contato a:hover {
+  background-image: linear-gradient(45deg, black, gold);
+}
+.banner {
+  width: 100%;
+  height: auto;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+}
+.body {
+  background-color: #111111;
+  margin-top: -4px;
+}
+.body .perfumes {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.body .perfumes h2 {
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.body .photos a {
+  text-decoration: none;
+}
+.body .photo {
+  max-width: 1160px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.body .photo-vendidos {
+  padding: 20px;
+  width: 250px;
+  height: auto;
+}
+.body .photo-img {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.body .photo-img img {
+  width: 100%;
+  height: auto;
+}
+.body .photo-img img:hover {
+  transition: all 0.3s linear;
+  scale: 1.5;
+}
+.titulo {
+  text-align: center;
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 18px;
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titulo:hover{
+  color: gold;
+}
+.novidades{
+  background-color: #ccc;
+}
+.novidades .perfumes {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.novidades .perfumes h2 {
+  margin-top: 20px;
+  color: #1e1e1e;
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.novidades .photos a {
+  text-decoration: none;
+}
+.novidades .photo {
+  max-width: 1160px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.novidades .photo-vendidos {
+  padding: 20px;
+  width: 250px;
+  height: auto;
+}
+.novidades .photo-img {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+.novidades .photo-img img {
+  width: 100%;
+  height: auto;
+}
+.novidades .photo-img img:hover {
+  transition: all 0.3s linear;
+  scale: 1.5;
+  opacity: 0.8;
+}
+.novidades .titulo {
+  text-align: center;
+  margin-top: 10px;
+  color: #1e1e1e;
+  font-size: 20px;
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
