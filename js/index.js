@@ -16,3 +16,11 @@ const scandal = () =>{
 const delina = () =>{
   window.open("./pages/delina.html", "_self ");
 }
+
+const masculino = () =>{
+  window.open("./pages/perfumes-mascu.html", "_self ");
+}
+
+const sau = () =>{
+  window.open("./pages/sauvage.html", "_self ");
+}

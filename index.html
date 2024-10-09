@@ -18,8 +18,12 @@
             <ul>
               <li><a href="#">Início</a></li>
               <li><a href="#">Produtos</a></li>
-              <li><a href="#">Perfumes</a>
-                <li class="menu-oculto"><a>Perfumes masculinos</a></li>
+              <li class="dropdown"><a href="#">Perfumes </a>
+                <div class="dropdown-menu">
+                  <a href="#" onclick="masculino()">Masculinos</a>
+                  <a href="#" onclick="good()">Femininos</a>
+                  <a href="#" onclick="delina()">Todos os Perfumes</a>
+                </div>
               </li>
               <li><a href="#">Difusores</a></li>
               <li><a href="#">Sabonete Líquido</a></li>
@@ -100,6 +104,68 @@
       <div class="novidades">
         <div class="perfumes">
           <h2>Novidades na nossa loja</h2>
+        </div>
+        <div class="photos">
+          <a href="">
+            <div class="photo">
+              <div class="photo-vendidos" onclick="delina()">
+                <div class="photo-img">
+                  <img src="img/delina.png" alt="delina" />
+                </div>
+                <div class="info">
+                  <div class="titulo">
+                    Perfume Femenino <br />
+                    Delina La Rosée Parfums de Marly Eau de Parfum Feminino<br />
+                    R$: 100,00
+                  </div>
+                </div>
+              </div>
+              <div class="photo-vendidos" onclick="good()">
+                <div class="photo-img">
+                  <img src="img/good.png" alt="good" />
+                </div>
+                <div class="info">
+                  <div class="titulo">
+                    Perfume Femenino <br />
+                    Good Girl Carolina Herrera Eau de Parfum Feminino <br />
+                    R$: 100,00
+                  </div>
+                </div>
+              </div>
+              <div class="photo-vendidos" onclick="black()">
+                <div class="photo-img">
+                  <img src="img/212-VIP-BLACK.png" alt="212 vip black" />
+                </div>
+                <div class="info">
+                  <div class="titulo">
+                    Perfume Masculino <br />
+                    212 Vip Black - Masculino - Carolina Herrera <br />
+                    R$: 100,00
+                  </div>
+                </div>
+              </div>
+              <div class="photo-vendidos" onclick="scandal()">
+                <div class="photo-img">
+                  <img src="img/scandal.png" alt="scandal" />
+                </div>
+                <div class="info">
+                  <div class="titulo">
+                    Perfume Femenino <br />
+                    Scandal A Paris Jean Paul Gaultier Eau de Toilette Feminino
+                    <br />
+                    R$: 100,00
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="gosto">
+        <div class="perfumes">
+          <h2>Você vai gostar</h2>
         </div>
         <div class="photos">
           <a href="">
