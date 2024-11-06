@@ -80,6 +80,8 @@ header {
 .contato a:hover {
   background-image: linear-gradient(45deg, black, gold);
 }
+
+
 .banner {
   width: 100%;
   height: auto;
@@ -257,4 +259,54 @@ header {
 }
 .gosto .titulo:hover{
     color: gold;
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+.menu-mobile{
+  display: none;
+}
+.mobile-menu-icon{
+  margin-right: 10px;
+}
+.mobile-menu-icon img{
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+}
+@media (max-width:450px) {
+  .menu nav ul{
+    display: none;
+    flex-direction: column;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+    margin-top: 40px;
+  }  
+  .menu nav li a{
+    color: #000;
+    line-height: 80px;
+    font-size: 30px;
+  }
+  .contato{
+    display: none;
+  }
+  .mobile-menu-icon{
+    display: block;
+  }
+  .menu-mobile{
+    display: flex;
+  }
+  .dropdown-menu a{
+    margin-top: -40px;
+    color: #fff;
+  }
+  .menu li a:hover {
+    color: #000;
+    border-bottom: 3px solid rgba(20, 10, 40, 0.5);
+    width: 2px;
+  }
 }

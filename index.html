@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo/estilo.css" />
-    <script src="js/index.js"></script>
+    <script>
+      window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
+    </script>
     <title>MPN Perfumes</title>
   </head>
   <body>
@@ -15,13 +25,18 @@
         </div>
         <div class="menu">
           <nav>
+            <div class="menuMobile">
+              <div class="mobile-menu-icon">
+                <button><img src="img/menuHamburger.jfif"></button>
+              </div>
+            </div>
             <ul>
               <li><a href="/index.html">Início</a></li>
               <li><a href="#">Produtos</a></li>
               <li class="dropdown">
                 <a href="#">Perfumes </a>
                 <div class="dropdown-menu">
-                  <a href="#" onclick="masculino()">Masculinos</a>
+                  <a href="/pages/perfumes-mascu.html">Masculinos</a>
                   <a href="#" onclick="good()">Femininos</a>
                   <a href="#" onclick="delina()">Todos os Perfumes</a>
                 </div>
@@ -29,6 +44,7 @@
               <li><a href="#">Difusores</a></li>
               <li><a href="#">Sabonete Líquido</a></li>
             </ul>
+           
           </nav>
         </div>
         <div class="contato">
@@ -58,8 +74,9 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>
               </div>
-          </a>
+        
               <a href="/pages/good.html">
               <div class="photo-vendidos">
                 <div class="photo-img">
@@ -72,8 +89,9 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>
               </div>
-            </a>
+        
               <a href="/pages/212black.html">
               <div class="photo-vendidos">
                 <div class="photo-img">
@@ -86,9 +104,10 @@
                     R$: 100,00
                   </div>
                 </div>
-              </div>
             </a>
-              <a href="/pages/scandal.html">
+              </div>
+         
+            <a href="/pages/scandal.html">
               <div class="photo-vendidos">
                 <div class="photo-img">
                   <img src="img/scandal.png" alt="scandal" />
@@ -101,20 +120,23 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>
               </div>
-          </a>
+          
         </div>
       </div>
     </section>
+
+
     <section>
       <div class="novidades">
         <div class="perfumes">
           <h2>Novidades na nossa loja</h2>
         </div>
         <div class="photos">
-          <a href="">
+          <a href="/pages/delina.html">
             <div class="photo">
-              <div class="photo-vendidos" onclick="delina()">
+              <div class="photo-vendidos">
                 <div class="photo-img">
                   <img src="img/delina.png" alt="delina" />
                 </div>
@@ -125,8 +147,11 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a> 
               </div>
-              <div class="photo-vendidos" onclick="good()">
+           
+            <a href="/pages/good.html">
+              <div class="photo-vendidos">
                 <div class="photo-img">
                   <img src="img/good.png" alt="good" />
                 </div>
@@ -137,8 +162,11 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>
               </div>
-              <div class="photo-vendidos" onclick="black()">
+            
+            <a href="/pages/212black.html">
+              <div class="photo-vendidos">
                 <div class="photo-img">
                   <img src="img/212-VIP-BLACK.png" alt="212 vip black" />
                 </div>
@@ -149,8 +177,11 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>
               </div>
-              <div class="photo-vendidos" onclick="scandal()">
+            
+            <a href="/pages/scandal.html">
+              <div class="photo-vendidos">
                 <div class="photo-img">
                   <img src="img/scandal.png" alt="scandal" />
                 </div>
@@ -162,9 +193,9 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a> 
               </div>
-            </div>
-          </a>
+        
         </div>
       </div>
     </section>
@@ -174,9 +205,9 @@
           <h2>Você vai gostar</h2>
         </div>
         <div class="photos">
-          <a href="">
+          <a href="/pages/delina.html">
             <div class="photo">
-              <div class="photo-vendidos" onclick="delina()">
+              <div class="photo-vendidos">
                 <div class="photo-img">
                   <img src="img/delina.png" alt="delina" />
                 </div>
@@ -187,8 +218,11 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>  
               </div>
-              <div class="photo-vendidos" onclick="good()">
+           
+            <a href="/pages/good.html">
+              <div class="photo-vendidos">
                 <div class="photo-img">
                   <img src="img/good.png" alt="good" />
                 </div>
@@ -199,8 +233,11 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>
               </div>
-              <div class="photo-vendidos" onclick="black()">
+         
+            <a href="/pages/212black.html">
+              <div class="photo-vendidos">
                 <div class="photo-img">
                   <img src="img/212-VIP-BLACK.png" alt="212 vip black" />
                 </div>
@@ -211,7 +248,10 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>
               </div>
+           
+            <a href="/pages/scandal.html">
               <div class="photo-vendidos" onclick="scandal()">
                 <div class="photo-img">
                   <img src="img/scandal.png" alt="scandal" />
@@ -224,9 +264,10 @@
                     R$: 100,00
                   </div>
                 </div>
+              </a>
               </div>
+       
             </div>
-          </a>
         </div>
       </div>
     </section>
