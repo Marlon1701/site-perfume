@@ -161,10 +161,7 @@ header {
 }
 
 @media (max-width:450px){
-    .banner{
-      flex-direction: column;
-    }
-    .desc{
-      text-align: center;
-    }
+  .desc{
+    text-align: center;
+  }
 }

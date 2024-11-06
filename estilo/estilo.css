@@ -307,6 +307,6 @@ header {
   .menu li a:hover {
     color: #000;
     border-bottom: 3px solid rgba(20, 10, 40, 0.5);
-    width: 2px;
+    width: 50%;
   }
 }

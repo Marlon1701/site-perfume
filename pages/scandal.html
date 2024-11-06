@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../estilo/perfumes.css" />
     <link rel="stylesheet" href="../estilo/estilo.css"/>
+    <script>
+       window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
+    </script>
     <title>Scandal</title>
   </head>
   <body>
@@ -15,6 +26,11 @@
         </div>
         <div class="menu">
           <nav>
+            <div class="menuMobile">
+              <div class="mobile-menu-icon">
+                <button><img src="../img/menuHamburger.jfif"></button>
+              </div>
+            </div>
             <ul>
               <li><a href="/index.html">Início</a></li>
               <li><a href="#">Produtos</a></li>
