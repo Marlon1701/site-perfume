@@ -274,7 +274,7 @@ header {
   width: 35px;
   height: 35px;
   cursor: pointer;
-
+  mix-blend-mode: multiply;
 }
 @media (max-width:450px) {
   .menu nav ul{
