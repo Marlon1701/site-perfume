@@ -327,4 +327,10 @@ header {
   .titulo{
     font-size: 25px;
   }
+  .novidades .titulo{
+    font-size: 25px;
+  }
+  .gosto .titulo{
+    font-size: 25px;
+  }
 }
