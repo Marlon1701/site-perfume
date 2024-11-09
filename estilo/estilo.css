@@ -22,6 +22,7 @@ header {
 .menu {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
   font-style: normal;
@@ -70,7 +71,6 @@ header {
 }
 .dropdown-menu a{
   display: block;
-  color: #f00;
 }
 .dropdown:hover .dropdown-menu{
   display: block;
@@ -268,12 +268,13 @@ header {
   display: none;
 }
 .mobile-menu-icon{
-  margin-right: 10px;
+  margin-left: -280px;
 }
 .mobile-menu-icon img{
   width: 35px;
   height: 30px;
   cursor: pointer;
+
 }
 @media (max-width:450px) {
   .menu nav ul{
@@ -292,7 +293,14 @@ header {
     font-size: 30px;
   }
   .contato{
-    display: none;
+    display: flex;
+    position: relative;
+    width: 80px;
+    margin-right: 10px;
+  }
+  .contato a{
+    font-size: 18px;
+    text-align: center;
   }
   .mobile-menu-icon{
     display: block;
@@ -308,5 +316,12 @@ header {
     color: #000;
     border-bottom: 3px solid rgba(20, 10, 40, 0.5);
     width: 50%;
+  }
+  .logo img{
+    margin-left: 140px;
+  }
+  .photo{
+    display: flex;
+    justify-content: center;
   }
 }
