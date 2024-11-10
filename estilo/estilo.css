@@ -285,7 +285,7 @@ header {
     width: 100%;
     background-color: #fff;
     height: 100%;
-    margin-top: 40px;
+    margin-top: 9px;
   }  
   .menu nav li a{
     color: #000;
@@ -314,7 +314,7 @@ header {
   .menu li a:hover {
     color: #000;
     border-bottom: 3px solid rgba(20, 10, 40, 0.5);
-    width: 50%;
+    width: 90%;
   }
   .logo img{
     margin-left: 150px;
