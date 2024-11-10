@@ -311,14 +311,21 @@ header {
     margin-top: -40px;
     color: #fff;
   }
+  .menu{
+    flex: 1;
+  }
   .menu li a:hover {
     color: #000;
     border-bottom: 3px solid rgba(20, 10, 40, 0.5);
     width: 90%;
   }
+  .logo{
+    flex: 1;
+  }
   .logo img{
     margin-left: 150px;
     height: 60px;
+    flex: 1;
   }
   .photo{
     display: flex;
