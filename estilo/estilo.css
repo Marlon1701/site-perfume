@@ -268,7 +268,7 @@ header {
   display: none;
 }
 .mobile-menu-icon{
-  margin-left: -280px;
+  margin-left: -230px;
 }
 .mobile-menu-icon img{
   width: 35px;
@@ -293,14 +293,13 @@ header {
     font-size: 30px;
   }
   .contato{
-    display: flex;
-    position: relative;
-    width: 80px;
-    margin-right: 10px;
+    width: 150px;
   }
   .contato a{
-    font-size: 18px;
-    text-align: center;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    height: 23px;
   }
   .mobile-menu-icon{
     display: block;
@@ -318,7 +317,8 @@ header {
     width: 50%;
   }
   .logo img{
-    margin-left: 140px;
+    margin-left: 150px;
+    height: 60px;
   }
   .photo{
     display: flex;
@@ -332,5 +332,8 @@ header {
   }
   .gosto .titulo{
     font-size: 25px;
+  }
+  header{
+    height: 70px;
   }
 }
