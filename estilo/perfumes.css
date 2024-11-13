@@ -118,12 +118,18 @@ header {
   border-bottom: 2px dotted #cccc;
   margin-bottom: 50px;
 }
-.valor {
-  font-size: 30px;
+a .valor {
+  display: inline-block;
+  border: 2px solid #000;
+  background-color: #000;
+  padding: 10px;
+  font-size: 25px;
   font-family: "Germania One", system-ui;
   font-weight: 200;
   font-style: normal;
   margin-bottom: 40px;
+  text-decoration: none;
+  color: #fff;
 }
 .tamanho h2 {
   font-size: 40px;
