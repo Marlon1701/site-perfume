@@ -117,23 +117,23 @@ header {
   text-decoration: none;
 }
 .body .photo {
-  max-width: 1000px;
+  max-width: 1160px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
 .body .photo-vendidos {
   padding: 20px;
-  width: 200px;
+  width: 250px;
   height: auto;
 }
 .body .photo-img {
-  width: 200px;
+  width: 100%;
   background-color: #fff;
   overflow: hidden;
 }
 .body .photo-img img {
-  width: 200px;
+  width: 100%;
   height: auto;
 }
 .body .photo-img img:hover {
