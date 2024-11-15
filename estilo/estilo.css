@@ -62,6 +62,12 @@ header {
   font-weight: 400;
   font-style: normal;
 }
+.dropdown::after{
+  content: "🔽";
+  background-color: gold;
+  margin-left: -15px;
+  cursor: pointer;
+}
 .dropdown-menu{
   position: absolute;
   background-image: linear-gradient(10deg,gold, black);
@@ -148,7 +154,7 @@ header {
   color: gold;
 }
 .novidades{
-  background-color: #ccc;
+  background-color: #111111;
 }
 .gosto{
   background-color:#111111 ;
@@ -160,7 +166,7 @@ header {
 }
 .novidades .perfumes h2 {
   margin-top: 20px;
-  color: #1e1e1e;
+  color: #fff;
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -198,13 +204,15 @@ header {
 .novidades .titulo {
   text-align: center;
   margin-top: 10px;
-  color: #1e1e1e;
-  font-size: 20px;
+  color: #ccc;
+  font-size: 18px;
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-
+.novidades .titulo:hover{
+  color: gold;
+}
 
 .gosto .perfumes {
   margin-bottom: 10px;

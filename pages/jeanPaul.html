@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilo/perfumes.css" />
+    <link rel="stylesheet" href="../estilo/estilo.css" />
+    <script>
+       window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
+    </script>
+    <title>Jean Paul</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="../../img/perfume.logo.jpg" alt="logo" />
+        </div>
+        <div class="menu">
+          <nav>
+            <div class="menuMobile">
+              <div class="mobile-menu-icon">
+                <button><img src="../img/menuHamburger.jfif"></button>
+              </div>
+            </div>
+            <ul>
+              <li><a href="/index.html">Início</a></li>
+              <li><a href="#">Produtos</a></li>
+              <li class="dropdown">
+                <a href="#">Perfumes </a>
+                <div class="dropdown-menu">
+                  <a href="/pages/perfumes-mascu.html">Masculinos</a>
+                  <a href="/pages/perfumes-fem.html">Femininos</a>
+                  <a href="#">Todos os Perfumes</a>
+                </div>
+              </li>
+              <li><a href="#">Difusores</a></li>
+              <li><a href="#">Sabonete Líquido</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contato">
+          <a href="https://wa.me/5521964259508" target="_blank" aria-placeholder="Olá">Entrar em contato</a>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="foto">
+        <img src="../img/jeanPaul.jfif" />
+      </div>
+      <div class="desc">
+        <div class="title">
+          <h1>Perfumes / Perfume Masculino</h1>
+        </div>
+        <div class="sub-title">
+          <h2>Jean Paul Gaultier</h2>
+        </div>
+        <div class="desc-perfume">
+          <h2>
+            Le Male Jean Paul Gaultier Eau de Toilette Masculino
+          </h2>
+        </div>
+        <div class="desc-perfume-sub">
+          <h2>
+            Fresco & Suave. Forte & Sensual.
+          </h2>
+        </div>
+        <a href="https://wa.me/5521964259508" target="_blank" >
+          <div target="_blank" class="valor">Consultar Valores</div>
+        </a>
+        <div class="tamanho">
+          <h2>Tamanho</h2>
+          <a href="/">100ML</a>
+        </div>
+      </div>
+    </section>
+    <section class="desc">
+      <div class="discricao">
+        <h2>Le Male Jean Paul Gaultier Eau de Toilette</h2>
+        <p>
+            Jean Paul Gaultier busca inspiração na figura simbólica do marinheiro sedutor que destrói os corações. Le Male é tão viril quanto sexy, é uma fragrância que oferece uma visão não-conformista da masculinidade… reconfortante com um rastro extremamente moderno.
+        </p>
+
+        <p>
+            Uma fragrância oriental fougere, fresca e sexy, que combina poder e sensualidade.
+        </p>
+
+        <p>
+          Modo de usar <br />
+          Aplique nos 3 pontos de pulsação: punho, parte interna do cotovelo e pescoço.
+        </p>
+
+        <p>
+          Família olfativa <br />
+          Fougére, Oriental.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
