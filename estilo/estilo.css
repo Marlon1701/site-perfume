@@ -5,7 +5,7 @@
 }
 header {
   height: 120px;
-  background-image: linear-gradient(20deg,#000, gold, black);
+  background-image: linear-gradient(20deg, #000, gold, black);
 }
 .container {
   display: flex;
@@ -41,10 +41,10 @@ header {
   color: #000;
   border-bottom: 3px solid rgba(20, 10, 40, 0.5);
 }
-.menu-oculto{
+.menu-oculto {
   display: none;
 }
-.menu-oculto:hover{
+.menu-oculto:hover {
   display: flex;
 }
 .contato {
@@ -62,23 +62,23 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-.dropdown::after{
+.dropdown::after {
   content: "🔽";
   background-color: gold;
   margin-left: -15px;
   cursor: pointer;
 }
-.dropdown-menu{
+.dropdown-menu {
   position: absolute;
-  background-image: linear-gradient(10deg,gold, black);
+  background-image: linear-gradient(10deg, gold, black);
   max-width: 847px;
   width: 100%;
   display: none;
 }
-.dropdown-menu a{
+.dropdown-menu a {
   display: block;
 }
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 7px;
   padding: 10px 0;
@@ -86,7 +86,6 @@ header {
 .contato a:hover {
   background-image: linear-gradient(45deg, black, gold);
 }
-
 
 .banner {
   width: 100%;
@@ -97,7 +96,7 @@ header {
   height: auto;
 }
 .body {
-  background-color: #111111;
+  background-color: #fff;
   margin-top: -4px;
 }
 .body .perfumes {
@@ -107,7 +106,7 @@ header {
 }
 .body .perfumes h2 {
   margin-top: 20px;
-  color: #fff;
+  color: #111;
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -143,22 +142,17 @@ header {
 .titulo {
   text-align: center;
   margin-top: 10px;
-  color: #ccc;
+  color: #111;
   font-size: 18px;
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.titulo:hover{
+.titulo:hover {
   color: gold;
 }
-.novidades{
-  background-color: #111111;
-}
-.gosto{
-  background-color:#111111 ;
-}
+
 .novidades .perfumes {
   margin-bottom: 10px;
   display: flex;
@@ -166,7 +160,7 @@ header {
 }
 .novidades .perfumes h2 {
   margin-top: 20px;
-  color: #fff;
+  color: #111;
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -204,13 +198,13 @@ header {
 .novidades .titulo {
   text-align: center;
   margin-top: 10px;
-  color: #ccc;
+  color: #111;
   font-size: 18px;
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-.novidades .titulo:hover{
+.novidades .titulo:hover {
   color: gold;
 }
 
@@ -221,7 +215,7 @@ header {
 }
 .gosto .perfumes h2 {
   margin-top: 20px;
-  color: #fff;
+  color: #111;
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -259,33 +253,33 @@ header {
 .gosto .titulo {
   text-align: center;
   margin-top: 10px;
-  color: #ccc;
+  color: #111;
   font-size: 18px;
   font-family: "Germania One", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-.gosto .titulo:hover{
-    color: gold;
+.gosto .titulo:hover {
+  color: gold;
 }
 
-.mobile-menu-icon{
+.mobile-menu-icon {
   display: none;
 }
-.menu-mobile{
+.menu-mobile {
   display: none;
 }
-.mobile-menu-icon{
+.mobile-menu-icon {
   margin-left: -230px;
 }
-.mobile-menu-icon img{
+.mobile-menu-icon img {
   width: 35px;
   height: 35px;
   cursor: pointer;
   mix-blend-mode: multiply;
 }
-@media (max-width:450px) {
-  .menu nav ul{
+@media (max-width: 450px) {
+  .menu nav ul {
     display: none;
     flex-direction: column;
     left: 0;
@@ -294,32 +288,32 @@ header {
     background-color: #fff;
     height: 100%;
     margin-top: 9px;
-  }  
-  .menu nav li a{
+  }
+  .menu nav li a {
     color: #000;
     line-height: 80px;
     font-size: 30px;
   }
-  .contato{
+  .contato {
     width: 150px;
   }
-  .contato a{
+  .contato a {
     font-size: 14px;
     display: flex;
     align-items: center;
     height: 23px;
   }
-  .mobile-menu-icon{
+  .mobile-menu-icon {
     display: block;
   }
-  .menu-mobile{
+  .menu-mobile {
     display: flex;
   }
-  .dropdown-menu a{
+  .dropdown-menu a {
     margin-top: -40px;
     color: #fff;
   }
-  .menu{
+  .menu {
     flex: 1;
   }
   .menu li a:hover {
@@ -327,29 +321,32 @@ header {
     border-bottom: 3px solid rgba(20, 10, 40, 0.5);
     width: 90%;
   }
-  .logo{
+  .logo {
     flex: 1;
     margin-left: 10px;
   }
-  .logo img{
+  .logo img {
     margin-left: 150px;
     height: 60px;
     flex: 1;
   }
-  .photo{
+  .photo {
     display: flex;
     justify-content: center;
   }
-  .titulo{
+  .titulo {
     font-size: 25px;
   }
-  .novidades .titulo{
+  .novidades .titulo {
     font-size: 25px;
   }
-  .gosto .titulo{
+  .gosto .titulo {
     font-size: 25px;
   }
-  header{
-    height: 70px;
+  header {
+    height: 75px;
   }
+ .body .photo-vendidos{
+  width: 100px;
+ }
 }
