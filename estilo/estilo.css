@@ -64,7 +64,6 @@ header {
 }
 .dropdown::after {
   content: "🔽";
-  background-color: gold;
   margin-left: -15px;
   cursor: pointer;
 }
