@@ -335,13 +335,13 @@ header {
     justify-content: center;
   }
   .titulo {
-    font-size: 18px;
+    font-size: 20px;
   }
   .novidades .titulo {
     font-size: 25px;
   }
   .gosto .titulo {
-    font-size: 18px;
+    font-size: 20px;
   }
   header {
     height: 75px;
