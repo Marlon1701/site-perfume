@@ -349,4 +349,7 @@ header {
  .body .photo-vendidos{
   width: 150px;
  }
+ .novidades .photo-vendidos{
+  width: 150px;
+ }
 }
