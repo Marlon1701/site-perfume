@@ -352,4 +352,7 @@ header {
  .novidades .photo-vendidos{
   width: 150px;
  }
+ .gosto .photo-vendidos{
+  width: 150px;
+ }
 }
