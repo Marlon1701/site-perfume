@@ -128,7 +128,6 @@ header {
 }
 .body .photo-img {
   width: 100%;
-  background-color: #fff;
   overflow: hidden;
 }
 .body .photo-img img {
@@ -198,10 +197,10 @@ header {
 .novidades .titulo {
   text-align: center;
   margin-top: 10px;
-  color: #111;
+  color: #1f1f1f;
   font-size: 18px;
-  font-family: "Germania One", system-ui;
-  font-weight: 400;
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 600;
   font-style: normal;
 }
 .novidades .titulo:hover {
@@ -253,10 +252,10 @@ header {
 .gosto .titulo {
   text-align: center;
   margin-top: 10px;
-  color: #111;
+  color: #1f1f1f;
   font-size: 18px;
-  font-family: "Germania One", system-ui;
-  font-weight: 400;
+  font-family: "Cormorant Garamond", system-ui;
+  font-weight: 600;
   font-style: normal;
 }
 .gosto .titulo:hover {

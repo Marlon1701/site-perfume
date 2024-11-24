@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilo/perfumes.css" />
+    <link rel="stylesheet" href="../estilo/estilo.css" />
+    <script>
+       window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
+    </script>
+    <title>Coffee</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="menuMobile">
+          <div class="mobile-menu-icon">
+            <button><img src="../img/menuHamburger.jfif"></button>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="../img/perfume.logo.jpg" alt="logo" />
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="/index.html">Início</a></li>
+              <li><a href="#">Produtos</a></li>
+              <li class="dropdown">
+                <a href="#">Perfumes </a>
+                <div class="dropdown-menu">
+                  <a href="/pages/perfumes-mascu.html">Masculinos</a>
+                  <a href="/pages/perfumes-fem.html">Femininos</a>
+                  <a href="#">Todos os Perfumes</a>
+                </div>
+              </li>
+              <li><a href="#">Difusores</a></li>
+              <li><a href="#">Sabonete Líquido</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contato">
+          <a href="https://wa.me/5521964259508" target="_blank" aria-placeholder="Olá">Entrar em contato</a>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="foto">
+        <img src="../img/coffee.jfif" />
+      </div>
+      <div class="desc">
+        <div class="title">
+          <h1>Perfumes / Perfume Feminino</h1>
+        </div>
+        <div class="sub-title">
+          <h2>O Boticário</h2>
+        </div>
+        <div class="desc-perfume">
+          <h2>
+            Coffee Woman Seduction
+          </h2>
+        </div>
+        <div class="desc-perfume-sub">
+          <h2>
+            O Coffee Woman Seduction Colônia é uma fragrância irresistível, sensual e doce.
+          </h2>
+        </div>
+        <a href="https://wa.me/5521964259508" target="_blank" >
+          <div target="_blank" class="valor">Consultar Valores</div>
+        </a>
+        <div class="tamanho">
+          <h2>Tamanho</h2>
+          <a href="/">100ML</a>
+        </div>
+      </div>
+    </section>
+    <section class="desc">
+      <div class="discricao">
+        <h2>Coffee Woman Seduction</h2>
+        <p>
+            Sua fórmula carrega o equilíbrio entre Madeira e Musk, a intensidade do óleo essencial dos grãos de Café Arábica e a sensualidade das notas frutais com delicado toque floral. Tudo isso agregado a notas delicadas e quentes de Chocolate Branco, para entregar uma fragrância doce e intensa ao mesmo tempo.
+        </p>
+
+        <p>
+            Com perfumação sensual, viciante, irresistível e memorável, a embalagem de Coffee Woman Seduction Colônia busca referências no café, apresentando uma curvatura semelhante a de seus grãos, com cor vibrante e intensa para te acompanhar todos os dias.
+        </p>
+
+        <p>
+          Modo de usar <br />
+          Aplicar nas áreas quentes do corpo como pescoço, parte interna do cotovelo e pulsos.
+        </p>
+
+        <p>
+          Família olfativa <br />
+          Floriental Amadeirado Frutal.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
