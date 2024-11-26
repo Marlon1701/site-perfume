@@ -282,7 +282,7 @@ header {
     flex-direction: column;
     left: 0;
     position: absolute;
-    width: 100%;
+    width: 50%;
     background-color: #fff;
     height: 100%;
     margin-top: 25px;
@@ -290,7 +290,7 @@ header {
   .menu nav li a {
     color: #000;
     line-height: 80px;
-    font-size: 30px;
+    font-size: 20px;
   }
   .contato {
     width: 150px;
