@@ -39,8 +39,7 @@ header {
 }
 .menu li a:hover {
   color: #000;
-  border-bottom: 3px solid rgba(20, 10, 40, 0.5);
-  width: 100%;
+  border-bottom: 2px solid rgba(20, 10, 40, 0.5);
 }
 .menu-oculto {
   display: none;
@@ -278,9 +277,6 @@ header {
   .container{
     flex: 1;
   }
-  .menu{
-    transition: all 5s linear;
-  }
   .menu nav ul {
     display: none;
     flex-direction: column;
@@ -361,4 +357,26 @@ header {
  .gosto .photo-vendidos{
   width: 150px;
  }
+}
+
+
+.produtos{
+  flex: 1;
+  max-width: 1000px;
+  margin: auto;
+}
+.produto{
+  display: flex;
+  justify-content: center;
+}
+.produto1{
+  margin-right: 30px;
+}
+.produto1 img{
+  width: 300px;
+  height: auto;
+}
+.produto2 img{
+  width: 300px;
+  height: auto;
 }
