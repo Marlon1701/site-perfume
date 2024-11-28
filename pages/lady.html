@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilo/perfumes.css" />
+    <link rel="stylesheet" href="../estilo/estilo.css" />
+    <script>
+       window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
+    </script>
+    <title>Lady Million</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="menuMobile">
+          <div class="mobile-menu-icon">
+            <button><img src="../img/menuHamburger.jfif"></button>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="../img/logo.jfif" alt="logo" />
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="/index.html">Início</a></li>
+              <li><a href="#">Produtos</a></li>
+              <li class="dropdown">
+                <a href="#">Perfumes </a>
+                <div class="dropdown-menu">
+                  <a href="/pages/perfumes-mascu.html">Masculinos</a>
+                  <a href="/pages/perfumes-fem.html">Femininos</a>
+                  <a href="#">Todos os Perfumes</a>
+                </div>
+              </li>
+              <li><a href="#">Difusores</a></li>
+              <li><a href="#">Sabonete Líquido</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contato">
+          <a href="https://wa.me/5521964259508" target="_blank" aria-placeholder="Olá">Entrar em contato</a>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="foto">
+        <img src="../img/lady.png" />
+      </div>
+      <div class="desc">
+        <div class="title">
+          <h1>Perfumes / Perfume Masculino</h1>
+        </div>
+        <div class="sub-title">
+          <h2>Rabanne</h2>
+        </div>
+        <div class="desc-perfume">
+          <h2>
+            Lady Million Paco Rabanne Eau de Parfum Feminino
+          </h2>
+        </div>
+        <div class="desc-perfume-sub">
+          <h2>
+            Uma mulher perigosamente sexy.
+          </h2>
+        </div>
+        <a href="https://wa.me/5521964259508" target="_blank" >
+          <div target="_blank" class="valor">Consultar Valores</div>
+        </a>
+        <div class="tamanho">
+          <h2>Tamanho</h2>
+          <a href="/">100ML</a>
+        </div>
+      </div>
+    </section>
+    <section class="desc">
+      <div class="discricao">
+        <h2>Lady Million Paco Rabanne Eau de Parfum</h2>
+        <p>
+            Um mundo de luxo e glamour. Uma mulher perigosamente sexy. Uma fragrância irresistível. Lady Million de Paco Rabanne é uma expressão brilhante de feminilidade sensual.
+        </p>
+
+        <p>
+            A fragrância abre com uma mistura sedutora de Laranja Amarga, Framboesa Carnuda e Neroli. No coração, um buquê encantador de Flor de Laranjeira, Gardênia e Jasmim Árabe. Por fim, uma assinatura irresistível de Patchouli, Mel e Âmbar.
+        </p>
+        <p>
+          Modo de usar <br />
+          Aplicar nas áreas quentes do corpo como pescoço, parte interna do cotovelo e pulsos.
+        </p>
+
+        <p>
+          Família olfativa <br />
+          Floral, Frutal.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilo/perfumes.css" />
+    <link rel="stylesheet" href="../estilo/estilo.css" />
+    <script>
+       window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
+    </script>
+    <title>La Vie Est Belle</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="menuMobile">
+          <div class="mobile-menu-icon">
+            <button><img src="../img/menuHamburger.jfif"></button>
+          </div>
+        </div>
+        <div class="logo">
+          <img src="../img/logo.jfif" alt="logo" />
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="/index.html">Início</a></li>
+              <li><a href="#">Produtos</a></li>
+              <li class="dropdown">
+                <a href="#">Perfumes </a>
+                <div class="dropdown-menu">
+                  <a href="/pages/perfumes-mascu.html">Masculinos</a>
+                  <a href="/pages/perfumes-fem.html">Femininos</a>
+                  <a href="#">Todos os Perfumes</a>
+                </div>
+              </li>
+              <li><a href="#">Difusores</a></li>
+              <li><a href="#">Sabonete Líquido</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contato">
+          <a href="https://wa.me/5521964259508" target="_blank" aria-placeholder="Olá">Entrar em contato</a>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="foto">
+        <img src="../img/la belle.jfif" />
+      </div>
+      <div class="desc">
+        <div class="title">
+          <h1>Perfumes / Perfume Feminino</h1>
+        </div>
+        <div class="sub-title">
+          <h2>Lancôme</h2>
+        </div>
+        <div class="desc-perfume">
+          <h2>
+            La Vie Est Belle Lancôme Eau de Parfum Refillable Feminino
+          </h2>
+        </div>
+        <div class="desc-perfume-sub">
+          <h2>
+            A fragrância que torna a vida mais linda.
+          </h2>
+        </div>
+        <a href="https://wa.me/5521964259508" target="_blank" >
+          <div target="_blank" class="valor">Consultar Valores</div>
+        </a>
+        <div class="tamanho">
+          <h2>Tamanho</h2>
+          <a href="/">100ML</a>
+        </div>
+      </div>
+    </section>
+    <section class="desc">
+      <div class="discricao">
+        <h2>La Vie Est Belle Lancôme Eau de Parfum Refillable</h2>
+        <p>
+            “La Vie Est Belle“, uma expressão francesa que significa “A vida é linda“; O manifesto de uma nova era. Universal e pessoal, a feminilidade de Lancôme é uma escolha adotada pelas mulheres e não como um padrão imposto. A escolha de viver a vida e preenchê-la com beleza. Seu próprio caminho.
+        </p>
+
+        <p>
+           
+        </p>
+
+        <p>
+          Modo de usar <br />
+          Borrifar a 20 cm da pele, concentrando-se nas áreas quentes do corpo: parte interna dos pulsos e atrás das orelhas, para realçar a sua vivacidade.
+        </p>
+
+        <p>
+          Família olfativa <br />
+          Floral, Frutal, Gourmand.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
