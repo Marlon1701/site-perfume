@@ -361,22 +361,65 @@ header {
 
 
 .produtos{
-  flex: 1;
   max-width: 1000px;
   margin: auto;
 }
 .produto{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
+
 .produto1{
-  margin-right: 30px;
+  width: 100%;
+  height: 300px;
+  background-color: #f0f;
+  text-align: center;
+
 }
-.produto1 img{
-  width: 300px;
-  height: auto;
+.produto2{
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: #f00;
+  margin-left: 20px;
 }
-.produto2 img{
-  width: 300px;
-  height: auto;
+.produto3{
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-color: #ffa;
+  margin-left: 20px;
+}
+.roda{
+  background-color: #141414;
+  width: 100%;
+  height: 150px;
+ 
+}
+.roda h1{
+  color: #fff;
+  text-align: center;
+  padding-top: 4%;
+  font-size: 16px;
+}
+
+@keyframes atencao {
+  0% {background-color: #fff;}
+  35%{background-color: #f00;}
+
+}
+.atention{
+  width: 100%;
+  background-color: #f00;
+  color: #fff;
+  line-height: 40px;
+  margin-bottom: 20px;
+  animation-name: atencao;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  margin-top: 40px;
+}
+.atention h1{
+  font-size: 15px;
 }
