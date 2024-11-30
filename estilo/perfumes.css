@@ -173,7 +173,7 @@ a .valor {
   .desc {
     text-align: center;
   }
-  .descr{
+  .desc p{
     text-align: left;
   }
 }
