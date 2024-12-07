@@ -33,7 +33,7 @@ header {
 }
 .menu li a {
   text-decoration: none;
-  color: #fff;
+  color: #1e1e1e;
   padding: 20px;
   font-size: 23px;
 }
@@ -69,13 +69,14 @@ header {
 }
 .dropdown-menu {
   position: absolute;
-  background-image: linear-gradient(40deg, gold, black);
+  background-color: #ddd;
   max-width: 818px;
   width: 100%;
   display: none;
 }
 .dropdown-menu a {
   display: block;
+
 }
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -359,7 +360,7 @@ header {
 }
 
 .produtos {
-  max-width: 1000px;
+  max-width: 860px;
   margin: auto;
 }
 .produto {
@@ -368,25 +369,38 @@ header {
   width: 100%;
 }
 
-.produto1 {
+.produto1  {
   width: 100%;
-  height: 300px;
-  background-color: #f0f;
   text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+.produto1 img{
+  width: 100%;
 }
 .produto2 {
   text-align: center;
   width: 100%;
   height: 300px;
-  background-color: #f00;
   margin-left: 20px;
+  text-decoration: none;
 }
+.produto2 img{
+  width: 100%;
+}
+
 .produto3 {
   text-align: center;
   width: 100%;
   height: 300px;
-  background-color: #ffa;
   margin-left: 20px;
+}
+.produto3 img{
+  width: 100%;
+}
+.produto3 a, .produto2 a,  .produto1 a {
+  text-decoration: none;
+  color: #000;
 }
 footer {
   background-color: #141414;
