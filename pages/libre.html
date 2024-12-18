@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilo/perfumes.css" />
+    <link rel="stylesheet" href="../estilo/estilo.css" />
+    <script>
+       window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
+    </script>
+    <title>Libre</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="menuMobile">
+          <div class="mobile-menu-icon">
+            <button><img src="../img/menuHamburger.jfif"></button>
+          </div>
+        </div>
+        <div class="logo">
+          <a href="/index.html"><img src="../img/logo.jfif" alt="logo" /></a>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="/index.html">Início</a></li>
+              <li><a href="/pages/produtos.html">Produtos</a></li>
+              <li class="dropdown">
+                <a href="#">Perfumes </a>
+                <div class="dropdown-menu">
+                  <a href="/pages/perfumes-mascu.html">Masculinos</a>
+                  <a href="/pages/perfumes-fem.html">Femininos</a>
+                  <a href="/pages/perfumes.html">Todos os Perfumes</a>
+                </div>
+              </li>
+              <li><a href="/pages/difusores.html">Difusores</a></li>
+              <li><a href="/pages/sabonete.html">Sabonete Líquido</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contato">
+          <a href="https://wa.me/5521964259508" target="_blank" aria-placeholder="Olá">Entrar em contato</a>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="foto">
+        <img src="../img/libre.jpg" />
+      </div>
+      <div class="desc">
+        <div class="title">
+          <h1>Perfumes / Perfume Feminino</h1>
+        </div>
+        <div class="sub-title">
+          <h2>Yves Saint Laurent</h2>
+        </div>
+        <div class="desc-perfume">
+          <h2>
+            Libre Intense Yves Saint Laurent Eau de Parfum Feminino
+          </h2>
+        </div>
+        <div class="desc-perfume-sub">
+          <h2>
+            Uma intensidade floral ígnea para uma mulher de extremamente livre que vive de acordo com seus instintos.
+          </h2>
+        </div>
+        <a href="https://wa.me/5521964259508" target="_blank" >
+          <div target="_blank" class="valor">Consultar Valores</div>
+        </a>
+        <div class="tamanho">
+          <h2>Tamanho</h2>
+          <a href="/">100ML</a>
+        </div>
+      </div>
+    </section>
+    <section class="desc">
+      <div class="discricao">
+        <h2>Libre Intense Yves Saint Laurent Eau de Parfum</h2>
+        <p>
+            Instintivo, selvagem e livre. É hora de levar sua liberdade ao extremo, com a encarnação selvagem de Libre Intense da Yves Saint Laurent.
+        </p>
+        <p>
+            Um perfume suave que ultrapassa os limites da liberdade.
+        </p>
+
+        <p>
+            Com Libre Intense, os mestres perfumistas Anne Flipo e Carlos Benaïm seguiram seu instinto e intensificaram ainda mais a composição ousada de Livre.
+        </p>
+        <p>
+            Inspirando-se nas passarelas da alta-costura, o frasco leva ainda mais a sua declaração de alta-costura com uma cor camel masculina entrelaçada da forma mais feminina, ampliando a intensidade do frasco original.
+        </p>
+        <p>
+          Modo de usar <br />
+          Aplicar nas áreas quentes do corpo como pescoço, parte interna do cotovelo e pulsos.
+        </p>
+
+        <p>
+          Família olfativa <br />
+          Floral, Frutal.
+        </p>
+      </div>
+    </section>
+
+    <section class="atention">
+      <h1>ATENÇÃO: AS IMAGENS DOS PRODUTOS DE OUTRAS MARCAS APRESENTADAS NESSE SITE, SÃO USADOS APENAS COMO REFERÊNCIA OLFATIVA E NÃO POSSUEM QUALQUER VÍNCULO A MPN PERFUMES</h1>
+    </section>
+    
+    <footer>
+      <div class="roda">
+        <h1>Copyrigth - Todos os direitos reservados Marlon Pereira</h1>
+      </div>
+  </footer>
+  </body>
+</html>
