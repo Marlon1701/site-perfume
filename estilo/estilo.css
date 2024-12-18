@@ -274,7 +274,7 @@ header {
   cursor: pointer;
   mix-blend-mode: multiply;
 }
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .container {
     flex: 1;
   }
