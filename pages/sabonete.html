@@ -1,1 +1,127 @@
-<h1>SABONETE</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/estilo.css"/>
+    <script>
+       window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
+    </script>
+    <title>Sabonete Líquido</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="menuMobile">
+            <div class="mobile-menu-icon">
+              <button><img src="../img/menuHamburger.jfif"></button>
+            </div>
+          </div>
+          <div class="logo">
+            <a href="/index.html"><img src="../img/logo.jfif" alt="logo" /></a>
+          </div>
+          <div class="menu">
+            <nav>
+              <ul>
+                <li><a href="/index.html">Início</a></li>
+                <li><a href="/pages/produtos.html">Produtos</a></li>
+                <li class="dropdown">
+                  <a href="#">Perfumes </a>
+                  <div class="dropdown-menu">
+                    <a href="/pages/perfumes-mascu.html">Masculinos</a>
+                    <a href="/pages/perfumes-fem.html">Femininos</a>
+                    <a href="/pages/perfumes.html">Todos os Perfumes</a>
+                  </div>
+                </li>
+                <li><a href="/pages/difusores.html">Difusores</a></li>
+                <li><a href="/pages/sabonete.html">Sabonete Líquido</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="contato">
+            <a href="https://wa.me/5521964259508" target="_blank" aria-placeholder="Olá">Entrar em contato</a>
+          </div>
+        </div>
+      </header>
+      <section class="banner-principal">
+        <div class="body">
+          <div class="perfumes">
+            <h2>Sabanote Líquido</h2>
+          </div>
+          <div class="photos">
+            <a href="#">
+              <div class="photo">
+                <div class="photo-vendidos">
+                  <div class="photo-img">
+                    <img src="../img/sabonete.jpg" alt="" />
+                  </div>
+                  <div class="info">
+                    <div class="titulo">
+                      Hugo Boss <br />
+                    </div>
+                  </div>
+                </div>  
+            </a>
+            <a href="#">
+                <div class="photo-vendidos">
+                    <div class="photo-img">
+                        <img src="../img/sabonete.jpg" alt="" />
+                    </div>
+                    <div class="info">
+                        <div class="titulo">
+                            Hypnotic Poison <br />
+                        </div>
+                    </div>
+                </div>  
+            </a>
+            <a href="#">
+                <div class="photo">
+                  <div class="photo-vendidos">
+                    <div class="photo-img">
+                      <img src="../img/sabonete.jpg" alt="" />
+                    </div>
+                    <div class="info">
+                      <div class="titulo">
+                          212 Vip Men <br />
+                      </div>
+                    </div>
+                  </div>  
+          </a>
+          <a href="#">
+            <div class="photo">
+              <div class="photo-vendidos">
+                <div class="photo-img">
+                  <img src="../img/sabonete.jpg" alt="" />
+                </div>
+                <div class="info">
+                  <div class="titulo">
+                      Chanel N5 <br />
+                  </div>
+                </div>
+              </div>  
+            </a>
+
+        </div>
+      </div>   
+</section>
+
+
+<section class="atention">
+  <h1>ATENÇÃO: AS IMAGENS DOS PRODUTOS DE OUTRAS MARCAS APRESENTADAS NESSE SITE, SÃO USADOS APENAS COMO REFERÊNCIA OLFATIVA E NÃO POSSUEM QUALQUER VÍNCULO A MPN PERFUMES</h1>
+</section>
+
+<footer>
+  <div class="roda">
+    <h1>Copyrigth - Todos os direitos reservados Marlon Pereira</h1>
+  </div>
+</footer>
+</body>
+</html>
