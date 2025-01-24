@@ -119,7 +119,7 @@ header {
   max-width: 1160px;
   margin: auto;
   display: flex;
-  overflow: hidden;
+  flex-wrap: wrap;
 }
 .body .photo-vendidos {
   padding: 20px;
