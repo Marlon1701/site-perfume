@@ -358,21 +358,7 @@ header {
     width: 150px;
   }
 }
-@media (min-width: 200px) {
-  .titulo{
-    font-size: 17px;
-    color: #1f1f1f;
-  }
-  .body .photo-vendidos {
-    width: 132px;
-  }
-  .novidades .photo-vendidos {
-    width: 132px;
-  }
-  .gosto .photo-vendidos {
-    width: 132px;
-  }
-}
+
 .produtos {
   max-width: 860px;
   margin: auto;
