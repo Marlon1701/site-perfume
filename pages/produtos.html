@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../estilo/estilo.css" />
     <script>
-      window.onload = function(){
-        document.querySelector(".menuMobile").addEventListener("click", function(){
-          if(document.querySelector(".menu nav ul").style.display === 'flex'){
-            document.querySelector(".menu nav ul").style.display = 'none';
-          }else{
-            document.querySelector(".menu nav ul").style.display = 'flex';
-          }
-        })
-      }
+      window.onload = function () {
+        document
+          .querySelector(".menuMobile")
+          .addEventListener("click", function () {
+            if (
+              document.querySelector(".menu nav ul").style.display === "flex"
+            ) {
+              document.querySelector(".menu nav ul").style.display = "none";
+            } else {
+              document.querySelector(".menu nav ul").style.display = "flex";
+            }
+          });
+      };
     </script>
     <title>MPN Perfumes</title>
   </head>
@@ -22,7 +26,7 @@
       <div class="container">
         <div class="menuMobile">
           <div class="mobile-menu-icon">
-            <button><img src="../img/menuHamburger.jfif"></button>
+            <button><img src="../img/menuHamburger.jfif" /></button>
           </div>
         </div>
         <div class="logo">
@@ -47,50 +51,58 @@
           </nav>
         </div>
         <div class="contato">
-          <a href="https://wa.me/5521964259508" target="_blank" aria-placeholder="Olá">Entrar em contato</a>
+          <a
+            href="https://wa.me/5521964259508"
+            target="_blank"
+            aria-placeholder="Olá"
+            >Entrar em contato</a
+          >
         </div>
       </div>
     </header>
 
-
     <section>
-        <div class="novidades">
-            <div class="perfumes">
-                <h2>Nossos Produtos</h2>
-            </div>
+      <div class="novidades">
+        <div class="perfumes">
+          <h2>Nossos Produtos</h2>
         </div>
-        <div class="produtos">
-            <div class="produto">
-                <div class="produto1">
-                  <a href="../pages/perfumes.html">
-                    <h1>Perfumes</h1>
-                    <img src="../img/perfumeEx.png">
-                  </a>  
-                </div>
-                <div class="produto2">
-                  <a href="../pages/difusores.html">
-                    <h1>Difusores</h1>
-                    <img src="../img/difusor.jpg"/>
-                  </a> 
-                </div>
-                <div class="produto3">
-                  <a href="../pages/sabonete.html">
-                    <h1>Sabonete Líquido</h1>
-                    <img src="../img/sabonete.jpg"/>
-                  </a>  
-               </div>
-            </div>
+      </div>
+      <div class="produtos">
+        <div class="produto">
+          <div class="produto1">
+            <a href="../pages/perfumes.html">
+              <h1>Perfumes</h1>
+              <img src="../img/perfume.jpg" />
+            </a>
+          </div>
+          <div class="produto2">
+            <a href="../pages/difusores.html">
+              <h1>Difusores</h1>
+              <img src="../img/difusor1.jpg" />
+            </a>
+          </div>
+          <div class="produto3">
+            <a href="../pages/sabonete.html">
+              <h1>Sabonete Líquido</h1>
+              <img src="../img/sabonete.jpg" />
+            </a>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="atention">
-      <h1>ATENÇÃO: AS IMAGENS DOS PRODUTOS DE OUTRAS MARCAS APRESENTADAS NESSE SITE, SÃO USADOS APENAS COMO REFERÊNCIA OLFATIVA E NÃO POSSUEM QUALQUER VÍNCULO A MPN PERFUMES</h1>
+      <h1>
+        ATENÇÃO: AS IMAGENS DOS PRODUTOS DE OUTRAS MARCAS APRESENTADAS NESSE
+        SITE, SÃO USADOS APENAS COMO REFERÊNCIA OLFATIVA E NÃO POSSUEM QUALQUER
+        VÍNCULO A MPN PERFUMES
+      </h1>
     </section>
-    
+
     <footer>
       <div class="roda">
         <h1>Copyrigth - Todos os direitos reservados Marlon Pereira</h1>
       </div>
-  </footer>
+    </footer>
   </body>
 </html>
