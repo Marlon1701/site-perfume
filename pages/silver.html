@@ -6,22 +6,28 @@
     <link rel="stylesheet" href="../estilo/perfumes.css" />
     <link rel="stylesheet" href="../estilo/estilo.css" />
     <script>
-       
+      window.onload = function () {
+        document
+          .querySelector(".menuMobile")
+          .addEventListener("click", function () {
+            if (
+              document.querySelector(".menu nav ul").style.display === "flex"
+            ) {
+              document.querySelector(".menu nav ul").style.display = "none";
+            } else {
+              document.querySelector(".menu nav ul").style.display = "flex";
+            }
+          });
+      };
     </script>
-    <title>212 Vip Black</title>
+    <title>Silver Scent</title>
   </head>
   <body>
     <header>
       <div class="container">
-          <div class="menuMobile">
+        <div class="menuMobile">
           <div class="mobile-menu-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="close--icon">
-            <span></span>
-            <span></span>
+            <button><img src="../img/menuHamburger.jfif" /></button>
           </div>
         </div>
         <div class="logo">
@@ -46,33 +52,33 @@
           </nav>
         </div>
         <div class="contato">
-          <a href="https://wa.me/5521964259508" target="_blank" aria-placeholder="Olá">Entrar em contato</a>
+          <a
+            href="https://wa.me/5521964259508"
+            target="_blank"
+            aria-placeholder="Olá"
+            >Entrar em contato</a
+          >
         </div>
       </div>
     </header>
     <section class="banner">
       <div class="foto">
-        <img src="../img/212-VIP-BLACK.png" />
+        <img src="../img/silver.jpg" />
       </div>
       <div class="desc">
         <div class="title">
           <h1>Perfumes / Perfume Masculino</h1>
         </div>
         <div class="sub-title">
-          <h2>Carolina Herrera</h2>
+          <h2>Jacques Bogart</h2>
         </div>
         <div class="desc-perfume">
-          <h2>
-            212 VIP Black Carolina Herrera Eau de Parfum Masculino inspirado
-          </h2>
+          <h2>Silver Scent Jacques Bogart Eau de Toilette Masculino</h2>
         </div>
         <div class="desc-perfume-sub">
-          <h2>
-            Uma fragrância explosivamente picante, criada para desafiar,
-            inspirar e conquistar a festa.
-          </h2>
+          <h2>Uma fragrância cheia de personalidade.</h2>
         </div>
-        <a href="https://wa.me/5521964259508" target="_blank" >
+        <a href="https://wa.me/5521964259508" target="_blank">
           <div target="_blank" class="valor">Consultar Valores</div>
         </a>
         <div class="tamanho">
@@ -83,39 +89,37 @@
     </section>
     <section class="desc">
       <div class="discricao">
-        <h2>212 VIP Black Carolina Herrera Eau de Parfum</h2>
+        <h2>Silver Scent Jacques Bogart Eau de Toilette</h2>
         <p>
-          A nova definição de INCRÍVEL, 212 VIP Black de Carolina Herrera é uma
-          fragrância explosivamente picante, criada para desafiar, inspirar e
-          conquistar a festa.
+          Elegante e sedutor, Silver Scent de Jacques Bogart é o lado mágico e misterioso do cinema representado numa fragrância cheia de personalidade.
         </p>
-
         <p>
-          A fragrância abre com notas eletrizantes de Absinto, Anis e Erva-doce,
-          que conduzem a um coração elegante de Lavanda. Por fim, a base de
-          Almíscar e Casca de Baunilha Negra poderosamente desenrola um rastro
-          intenso e marcante.
+         A fragrância abre com uma mistura refrescante de Limão Gelado, Laranja da Terra e Flor de Azahar. O coração se desenvolve de forma elegante com notas de Noz-moscada, Coriandro, Romero, Cardamomo e Lavanda e Gerânio Selvagem. Por fim, um rastro marcante de Vetiver, Madeira Teca, Líquen e Fava Tonka.
         </p>
-
         <p>
           Modo de usar <br />
-          Aplicar nas áreas quentes do corpo como pescoço, tórax e pulsos.
+         Aplicar nas áreas quentes do corpo como pescoço, tórax e pulsos.
         </p>
 
         <p>
           Família olfativa <br />
-          Aromático, Fougére.
+          Ambarino, Fougére.
         </p>
       </div>
     </section>
+
     <section class="atention">
-      <h1>ATENÇÃO: AS IMAGENS DOS PRODUTOS DE OUTRAS MARCAS APRESENTADAS NESSE SITE, SÃO USADOS APENAS COMO REFERÊNCIA OLFATIVA E NÃO POSSUEM QUALQUER VÍNCULO A MPN PERFUMES</h1>
+      <h1>
+        ATENÇÃO: AS IMAGENS DOS PRODUTOS DE OUTRAS MARCAS APRESENTADAS NESSE
+        SITE, SÃO USADOS APENAS COMO REFERÊNCIA OLFATIVA E NÃO POSSUEM QUALQUER
+        VÍNCULO A MPN PERFUMES
+      </h1>
     </section>
-    
+
     <footer>
       <div class="roda">
         <h1>Copyrigth - Todos os direitos reservados Marlon Pereira</h1>
       </div>
-  </footer>
+    </footer>
   </body>
 </html>
