@@ -5,23 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../estilo/perfumes.css" />
     <link rel="stylesheet" href="../estilo/estilo.css" />
-    <script>
-       
+      <script>
+      window.onload = function(){
+        document.querySelector(".menuMobile").addEventListener("click", function(){
+          if(document.querySelector(".menu nav ul").style.display === 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+          }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+          }
+        })
+      }
     </script>
     <title>212 Vip Black</title>
   </head>
   <body>
     <header>
       <div class="container">
-          <div class="menuMobile">
+           <div class="menuMobile">
           <div class="mobile-menu-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="close--icon">
-            <span></span>
-            <span></span>
+            <button><img src="../img/menuHamburger.jfif"></button>
           </div>
         </div>
         <div class="logo">
